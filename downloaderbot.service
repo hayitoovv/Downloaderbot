@@ -1,0 +1,17 @@
+[Unit]
+Description=Telegram Downloader Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=behruz
+WorkingDirectory=/var/www/Downloaderbot
+ExecStart=/var/www/Downloaderbot/.venv/bin/python /var/www/Downloaderbot/bot.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
