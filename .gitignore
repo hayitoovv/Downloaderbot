@@ -1,0 +1,14 @@
+.env
+cookies.txt
+cookies/
+*_cookies.txt
+*.cookies.txt
+_cookies_merged.txt
+__pycache__/
+*.pyc
+*.pyo
+downloads/
+.venv/
+venv/
+.idea/
+.vscode/

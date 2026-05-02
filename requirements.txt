@@ -1,0 +1,7 @@
+aiogram>=3.13
+yt-dlp
+yt-dlp-ejs
+python-dotenv
+instaloader
+gallery-dl
+curl_cffi>=0.10,<0.15
